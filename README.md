@@ -20,9 +20,9 @@ Or install it yourself as:
 
 ## Synopsis
 
- require 'rack-middleware-google-image'
+    require 'rack-middleware-google-image'
 
- use Rack::GoogleImage
+    use Rack::GoogleImage
 
 ## Contributing
 
