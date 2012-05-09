@@ -4,6 +4,8 @@
 
 rack middleware to response any image file via google search
 
+the original idea comes from [here](http://kimoto.hatenablog.com/entry/2012/05/06/113043)
+
 ## Installation
 
 Add this line to your application's Gemfile:
