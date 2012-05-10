@@ -26,6 +26,12 @@ Or install it yourself as:
 
     use Rack::GoogleImage
 
+## Example
+
+    $ cd example
+    $ gem install rack
+    $ rackup # => then browse http://localhost:9292
+
 ## Contributing
 
 1. Fork it
