@@ -12,8 +12,8 @@ module Rack
     def call(env)
       status, headers, response = @app.call(env)
 
-      if env['REQUEST_PATH'].match(/(.*)\.jpg$/)
-        response = search_image(response, $1)
+      if env['PATH_INFO'] =~ (/\/(.*)\.jpg$/)
+        response = search_image(response, Rack::Utils::unescape($1))
         [status, headers, response]
       end
 
