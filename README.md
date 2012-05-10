@@ -1,5 +1,6 @@
 # Rack::Middleware::Google::Image
 
+[![Build Status](https://secure.travis-ci.org/banyan/rack-middleware-google-image.png)](http://travis-ci.org/banyan/rack-middleware-google-image)
 ![image](http://i.imgur.com/LEnwb.png?1)
 
 rack middleware to response any image file via google search
