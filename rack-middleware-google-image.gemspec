@@ -15,5 +15,10 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Rack::Middleware::Google::Image::VERSION
 
-  gem.add_runtime_dependency  "google_image_api"
+  gem.add_runtime_dependency     "google_image_api"
+
+  gem.add_development_dependency "rspec",     "~> 2.10.0"
+  gem.add_development_dependency 'rake',      '>= 0.9.2.2'
+  gem.add_development_dependency "rack",      '>= 1.3.5'
+  gem.add_development_dependency 'rack-test', '>= 0.5.3'
 end
