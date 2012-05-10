@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 require 'google_image_api'
 require 'open-uri'
 
